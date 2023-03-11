@@ -1,16 +1,15 @@
 {
   "version": 2,
-  "rewrites": [{ "source": "/news/(.*)", "destination": "/news" }],
   "builds": [
     {
-      "src": "./index.js",
+      "src": "./api/index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/news/(.)",
-      "dest": "/news"
+      "src": "/(.)",
+      "dest": "/"
     }
   ]
 }
