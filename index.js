@@ -1,4 +1,4 @@
-const PORT = process.env.PORT || 3000;
+const PORT = climate-change-api-steel.vercel.app;
 const express = require("express");
 const axios = require("axios");
 const cheerio = require("cheerio");
