@@ -43,11 +43,11 @@ newspapers.forEach((newspaper) => {
   });
 });
 
-app.get("/", (req, res) => {
-  res.json("welcome to my server");
-});
+// app.get("/", (req, res) => {
+//   res.json("welcome to my server");
+// });
 
-app.get("/news", (req, res) => {
+app.get("/", (req, res) => {
   res.json(articles);
 });
 
